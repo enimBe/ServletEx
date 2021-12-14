@@ -4,15 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Current Date and Time</title>
+<title>BMI 수치</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </head>
 <body>
-	<h1>날짜, 시간 링크</h1>
-	<a class="btn btn-success btn-sm" href="test02_1.jsp" role="button">현재 시간 확인</a>
-	<a class="btn btn-primary btn-sm" href="test02_2.jsp">현재 날짜 확인</a>
+	<h3>체격 조건 입력</h3>
+	<input type="text">cm
+	<input type="text">kg
+	<a href="test03_1.jsp" class="btn btn-sm">계산</a>
 	
 </body>
 </html>
